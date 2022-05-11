@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: '10.x'
     - run: npm install
-    - uses: w9jds/firebase-action@master
+    - uses: w9jds/firebase-action@main
       with:
         args: deploy --only hosting
       env:
